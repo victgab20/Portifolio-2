@@ -32,11 +32,11 @@ h1{
 .boto{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
 }
 .boto a{
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 110%;
     border: solid rgb(255, 255, 255);
     padding: 10px;
     text-decoration: none;
@@ -120,4 +120,12 @@ footer{
 .social{
     width: 100%;
     
+}
+
+@media(max-width: 1366px){
+
+    .side-img{
+        display: none;
+    }
+
 }
