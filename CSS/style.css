@@ -129,3 +129,18 @@ footer{
     }
 
 }
+
+@media(max-width: 702px){
+
+    .boto{
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 500px){
+
+    .nome{
+        margin-left: 0px;
+    }
+}
