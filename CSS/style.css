@@ -31,7 +31,7 @@ h1{
 }
 .boto{
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
     width: 40%;
 }
 .boto a{
@@ -117,25 +117,46 @@ section{
     
 }
 
-@media(max-width: 1366px){
-
-    .side-img{
+@media(max-width:900px){
+    .side-img img{
+        width:500px;
+    }
+}
+@media(max-width:650px){
+    .side-img img{
+        width:400px;
+    }
+}
+@media(max-width:550px){
+    .side-img img{
+        width:300px;
+    }
+}
+@media(max-width:450px){
+    .side-img img{
         display: none;
     }
-
-}
-
-@media(max-width: 702px){
-
     .boto{
         width: 100%;
+        gap: 0px;
+        justify-content: space-around;
+        border: solid saddlebrown;
     }
-
-}
-
-@media(max-width: 500px){
-
     .nome{
         margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        border: solid saddlebrown;
+    }
+}
+
+@media(max-width: 308px){
+    h2{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 35px;
     }
 }
