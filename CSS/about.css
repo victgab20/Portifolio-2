@@ -1,43 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #ffffff;
-}
-body{
-    background-color: rgb(10, 9, 9);
-}
 
-header{
-    width: 100%;
-    height: 6vh;
-    margin-bottom: 15px;
-}
-nav{
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-nav a{
-    text-decoration: none;
-    color: aliceblue;
-}
-ul{
-    margin: 10px;
-    font-size: 20px;
-}
-ul::after{
-    content: "";
-    width: 0px;
-    transition: 0.5s;
-    display: block;
-
-}
-ul:hover::after{
-    width: 100%;
-    border: solid 0.5px royalblue;
-    transform: scale(1.1, 1.2);
-}
 section{
     width: 100%;
     display: flex;
@@ -90,54 +51,13 @@ span::after{
 }
 span{
     width: 170px;
-    padding: 0px;
 }
 span:hover::after{
     width: 100%;
     border: solid 0.5px royalblue;
-    transform: scale(1.1, 1.2);
 }
 
 footer{
     width: 100%;
     height: 6vh;
 }
-
-@media(max-width: 817px) {
-    .imagem {
-      display: none;
-    }
-    .text{
-        width: 100%;
-    }
-  }
-  @media(max-width: 433px) {
-    .imagem {
-      display: none;
-    }
-    .text p{
-        font-size: 170%;
-    }
-  }
-
-  @media(max-width: 253px){
-
-    .text-head{
-        margin-bottom: 20px;
-    }
-
-  }
-  @media(max-width: 254px){
-
-    section{
-        margin-bottom: 50px;
-    }
-
-  }
-  @media(max-width: 195px){
-
-    section{
-        margin-bottom: 90px;
-    }
-
-  }
