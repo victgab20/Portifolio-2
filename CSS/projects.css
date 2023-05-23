@@ -46,3 +46,20 @@ img{
     width: 100%;
     margin: 10px;
 }
+
+@media(max-width:600px){
+
+    main{
+        margin-top: 30px;
+    }
+    
+    p{
+        display: none;
+    }
+    .box{
+        margin: 40px;
+    }
+    .box1{
+        margin: 20px;
+    }
+}

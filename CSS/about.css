@@ -111,7 +111,7 @@ footer{
     section{
         justify-content: center;
         align-items: center;
-        
+        margin-top: 60px;
         font-size: 10px;
     }
     .text{
